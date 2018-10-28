@@ -6,28 +6,30 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<link href="style.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet"> 
 </head>
 <body>
-	<nav class="navbar transparent navbar-inverse navbar-fixed-top" id="main-nav">
-		<div class = "container">
-			<a href="index.html" class = "navbar-brand">Logo Here</a>
+	<nav class="navbar navbar-expand-md bg-light fixed-top">
+		<div class="container">
+			<a href="#home" class="navbarbrand">
+				<img src="pics/templogo.png" width = "50" height = "50" alt="">
+			</a>
 			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-				<span class = "navbar-toggler-icon"> </span>
+				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="collapse navbar-collapse" id="navbarCollapse">
+			<div class = "collapse navbar-collapse" id = "navbarCollapse">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a href="#home" class ="nav-link">Home</a>
+					<li class="navitem">
+						<a href="#home" class="nav-link">Home</a>
 					</li>
-					<li class="nav-item">
-						<a href="#explore-head-section" class ="nav-link">About Me</a>
+					<li class="navitem">
+						<a href="#about" class="nav-link">About Me</a>
 					</li>
-					<li class="nav-item">
-						<a href="#create-head-section" class ="nav-link">Experience</a>
+					<li class="navitem">
+						<a href="#projects" class="nav-link">Projects</a>
 					</li>
-					<li class="nav-item">
-						<a href="#share-head-section" class ="nav-link">Projects</a>
+					<li class="navitem">
+						<a href="#experience" class="nav-link">Experience</a>
 					</li>
 				</ul>
 			</div>
@@ -35,16 +37,31 @@
 	</nav>
 
 	<header class= "landing text-center text-white d-flex">
-
-	<div class="container my-auto">
-		<div class="row">
-			<div class="col-lg-12 my-auto">
-				<h1>Miguel Caringal</h1>
-				<p>Systems Software Engineer At NCR</p>
+		<div class="container my-auto">
+			<div class="row">
+				<div class="col-lg-12 my-auto">
+					<h1 class ="sectionhead">Miguel Caringal</h1>
+					<p>Systems Software Engineer At NCR</p>
+				</div>
 			</div>
 		</div>
-	</div>
 	</header>
+
+	<section id="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-5">
+                    <h1>About Me</h1>
+                </div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+                    <img src="pics/Miguel.jpeg" alt="" class="img-fluid mb-3 rounded-circle">
+                </div>
+			</div>
+        </div>
+	</section>
+	
 	<script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
